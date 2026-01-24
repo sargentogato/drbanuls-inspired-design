@@ -1,0 +1,57 @@
+<script setup lang="ts">
+import TreatmentPage from '@/components/TreatmentPage.vue';
+</script>
+
+<template>
+  <TreatmentPage
+    title="Hand & Foot Surgery"
+    subtitle="Precision treatment for optimal function and fast recovery"
+    icon="🤲"
+    :description="[
+      'The hands and feet are essential for daily activities, and problems in these areas can significantly impact quality of life. Dr. Bañuls provides expert surgical treatment for a wide range of hand and foot conditions.',
+      'Whether you\'re dealing with carpal tunnel syndrome affecting your ability to work, a painful bunion limiting your mobility, or a tendon injury from an accident, Dr. Bañuls offers precise surgical solutions.',
+      'His focus on minimally invasive techniques and careful surgical planning ensures the best possible outcomes with minimal scarring and faster return to normal activities.'
+    ]"
+    :conditions="[
+      'Carpal Tunnel Syndrome',
+      'Trigger Finger',
+      'Dupuytren\'s Contracture',
+      'Bunions (Hallux Valgus)',
+      'Hammer Toes',
+      'Morton\'s Neuroma',
+      'Tendon Injuries',
+      'Ganglion Cysts'
+    ]"
+    :procedures="[
+      {
+        title: 'Carpal Tunnel Release',
+        description: 'Surgical release of the carpal ligament to relieve pressure on the median nerve, restoring sensation and strength to the hand.'
+      },
+      {
+        title: 'Trigger Finger Release',
+        description: 'A minor procedure to release the tendon sheath that\'s causing the finger to lock or catch during movement.'
+      },
+      {
+        title: 'Bunion Correction',
+        description: 'Surgical realignment of the big toe joint to eliminate the painful bony prominence and restore normal foot mechanics.'
+      },
+      {
+        title: 'Tendon Repair',
+        description: 'Surgical repair of torn or damaged tendons in the hand or foot to restore function and strength.'
+      }
+    ]"
+    :benefits="[
+      'Precise, delicate surgical techniques',
+      'Often performed as day surgery',
+      'Minimal scarring',
+      'Quick return to daily activities',
+      'Comprehensive hand therapy support',
+      'High success rates'
+    ]"
+    :relatedTreatments="[
+      { title: 'Non-Surgical Treatments', href: '/treatments/non-surgical' },
+      { title: 'Knee Surgery', href: '/treatments/knee-surgery' },
+      { title: 'Spine Surgery', href: '/treatments/spine-surgery' }
+    ]"
+  />
+</template>
