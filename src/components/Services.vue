@@ -6,21 +6,25 @@ const services = [
     title: 'Spine Surgery',
     description: 'Minimally invasive techniques for herniated discs, vertebral fractures, and chronic back pain — especially in older patients.',
     icon: '🦴',
+    href: '/treatments/spine-surgery'
   },
   {
     title: 'Knee Surgery',
     description: 'From arthroscopic procedures to total joint replacement – modern techniques for lasting stability and faster recovery.',
     icon: '🦵',
+    href: '/treatments/knee-surgery'
   },
   {
     title: 'Hip Replacement',
     description: 'Customized prosthetic solutions to relieve pain, improve mobility, and restore quality of life in patients with hip degeneration or injury.',
     icon: '🏃',
+    href: '/treatments/hip-replacement'
   },
   {
     title: 'Hand and Foot Surgery',
     description: 'Effective treatment for deformities, tendon injuries, and nerve compression, with a focus on precision and speed of recovery.',
     icon: '🤲',
+    href: '/treatments/hand-foot'
   },
 ]
 </script>
@@ -43,9 +47,10 @@ const services = [
 
       <!-- Services Grid -->
       <div class="grid md:grid-cols-2 gap-6 lg:gap-8">
-        <div
+        <router-link
           v-for="(service, index) in services"
           :key="index"
+          :to="service.href"
           class="card-medical p-8 group cursor-pointer"
         >
           <div class="flex items-start gap-6">
@@ -57,13 +62,13 @@ const services = [
               <p class="text-muted-foreground leading-relaxed">
                 {{ service.description }}
               </p>
-              <button class="flex items-center gap-2 text-primary font-medium text-sm mt-4 group/btn">
-                Learn more
-                <ArrowRight class="w-4 h-4 transition-transform group-hover/btn:translate-x-1" />
-              </button>
+              <div class="flex items-center gap-2 text-primary font-medium text-sm mt-4 group-hover:translate-x-1 transition-transform">
+                <span>Learn more</span>
+                <ArrowRight class="w-4 h-4" />
+              </div>
             </div>
           </div>
-        </div>
+        </router-link>
       </div>
 
       <!-- Bottom CTA -->
