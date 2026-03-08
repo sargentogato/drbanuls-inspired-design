@@ -5,35 +5,34 @@ import TreatmentPage from '@/components/TreatmentPage.vue';
 <template>
   <TreatmentPage
     title="Hand & Foot Surgery"
-    subtitle="Precision treatment for optimal function and fast recovery"
+    subtitle="Aesthetic and functional solutions for bunions, hammertoes, and foot pain"
     icon="🤲"
     :description="[
-      'The hands and feet are essential for daily activities, and problems in these areas can significantly impact quality of life. Dr. Bañuls provides expert surgical treatment for a wide range of hand and foot conditions.',
-      'Whether you\'re dealing with carpal tunnel syndrome affecting your ability to work, a painful bunion limiting your mobility, or a tendon injury from an accident, Dr. Bañuls offers precise surgical solutions.',
-      'His focus on minimally invasive techniques and careful surgical planning ensures the best possible outcomes with minimal scarring and faster return to normal activities.'
+      'Hand and foot problems can significantly impact quality of life. At Euroclínica Jávea, Dr. Miguel Bañuls offers expert surgical treatment for a wide range of hand and foot conditions for patients in Jávea and the Costa Blanca.',
+      'He emphasizes a conservative approach, exploring non-surgical options like physical therapy and injections first. When surgery is necessary, he utilizes minimally invasive techniques to ensure faster recovery times.',
+      'From carpal tunnel syndrome to painful bunions and hammertoes, Dr. Bañuls provides precise surgical solutions that not only restore function but also deliver excellent aesthetic results.'
     ]"
     :conditions="[
-      'Carpal Tunnel Syndrome',
-      'Trigger Finger',
-      'Dupuytren\'s Contracture',
       'Bunions (Hallux Valgus)',
       'Hammer Toes',
-      'Morton\'s Neuroma',
+      'Carpal Tunnel Syndrome',
+      'Trigger Finger',
+      'Plantar Fasciitis',
       'Tendon Injuries',
-      'Ganglion Cysts'
+      'Hand & Foot Fractures'
     ]"
     :procedures="[
+      {
+        title: 'Bunion & Hammertoe Correction',
+        description: 'Surgical correction of bunions (Hallux Valgus) and hammertoes with a strong focus on achieving excellent, natural-looking aesthetic results while restoring foot mechanics.'
+      },
       {
         title: 'Carpal Tunnel Release',
         description: 'Surgical release of the carpal ligament to relieve pressure on the median nerve, restoring sensation and strength to the hand.'
       },
       {
         title: 'Trigger Finger Release',
-        description: 'A minor procedure to release the tendon sheath that\'s causing the finger to lock or catch during movement.'
-      },
-      {
-        title: 'Bunion Correction',
-        description: 'Surgical realignment of the big toe joint to eliminate the painful bony prominence and restore normal foot mechanics.'
+        description: 'A minor procedure to release the tendon sheath that is causing the finger to lock or catch during movement.'
       },
       {
         title: 'Tendon Repair',
@@ -41,12 +40,12 @@ import TreatmentPage from '@/components/TreatmentPage.vue';
       }
     ]"
     :benefits="[
-      'Precise, delicate surgical techniques',
-      'Often performed as day surgery',
-      'Minimal scarring',
-      'Quick return to daily activities',
-      'Comprehensive hand therapy support',
-      'High success rates'
+      'Excellent aesthetic outcomes',
+      'Expertise in delicate hand & foot surgery',
+      'Minimally invasive approach for faster recovery',
+      'Non-surgical options are always considered first',
+      'Focus on restoring optimal function',
+      'Personalized multilingual care'
     ]"
     :relatedTreatments="[
       { title: 'Non-Surgical Treatments', href: '/treatments/non-surgical' },

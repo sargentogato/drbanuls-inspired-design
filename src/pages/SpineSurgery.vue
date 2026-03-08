@@ -5,18 +5,18 @@ import TreatmentPage from '@/components/TreatmentPage.vue';
 <template>
   <TreatmentPage
     title="Spine Surgery"
-    subtitle="Minimally invasive techniques for lasting back pain relief"
+    subtitle="Minimally invasive techniques for lasting back and neck pain relief"
     icon="🦴"
     :description="[
-      'Dr. Bañuls specializes in minimally invasive spine surgery, offering patients the most advanced techniques for treating a wide range of spinal conditions. With over 20 years of experience, he has helped thousands of patients find relief from chronic back pain.',
-      'His approach focuses on preserving healthy tissue while addressing the root cause of your pain. This means smaller incisions, less post-operative pain, and faster recovery times compared to traditional open surgery.',
-      'Whether you\'re dealing with a herniated disc, spinal stenosis, or vertebral fractures, Dr. Bañuls will work with you to develop a personalized treatment plan that gets you back to your daily activities as quickly as possible.'
+      'Dr. Bañuls is a UK-trained orthopaedic surgeon specializing in minimally invasive treatments for back and neck pain. With over 20 years of experience, he offers expert care at Euroclínica Jávea for a wide range of spinal conditions.',
+      'His approach focuses on preserving healthy tissue while addressing the root cause of your pain. This means smaller incisions, less post-operative pain, and faster recovery times, which is especially beneficial for international patients seeking a quick return home.',
+      'Whether you are dealing with a herniated disc, spinal stenosis, or sciatica, Dr. Bañuls provides personalized, multilingual care to develop a treatment plan that gets you back to your daily activities as quickly as possible.'
     ]"
     :conditions="[
       'Herniated Discs',
       'Spinal Stenosis',
       'Vertebral Fractures',
-      'Chronic Back Pain',
+      'Chronic Back & Neck Pain',
       'Sciatica',
       'Degenerative Disc Disease',
       'Spinal Instability',
@@ -43,10 +43,10 @@ import TreatmentPage from '@/components/TreatmentPage.vue';
     :benefits="[
       'UK-trained spine specialist',
       'Minimally invasive techniques',
-      'Faster recovery times',
+      'Faster recovery for international patients',
       'Personalized treatment plans',
-      'Extensive experience with elderly patients',
-      'Clear, honest communication'
+      'Multilingual care (English & Spanish)',
+      'Extensive experience with elderly patients'
     ]"
     :relatedTreatments="[
       { title: 'Non-Surgical Treatments', href: '/treatments/non-surgical' },

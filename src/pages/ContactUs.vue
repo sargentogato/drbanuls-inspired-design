@@ -67,8 +67,8 @@ import { Clock, Mail, MapPin, MessageCircle, Phone } from 'lucide-vue-next'
                   </div>
                   <div>
                     <p class="font-semibold text-foreground text-lg">Email</p>
-                    <a href="mailto:info@drbanuls.com" class="text-muted-foreground hover:text-primary transition-colors">
-                      info@drbanuls.com
+                    <a href="mailto:drmbanuls@gmail.com" class="text-muted-foreground hover:text-primary transition-colors">
+                      drmbanuls@gmail.com
                     </a>
                   </div>
                 </div>
@@ -79,8 +79,7 @@ import { Clock, Mail, MapPin, MessageCircle, Phone } from 'lucide-vue-next'
                   </div>
                   <div>
                     <p class="font-semibold text-foreground text-lg">Consultation Hours</p>
-                    <p class="text-muted-foreground">Friday: 9:00 AM - 2:00 PM</p>
-                    <p className="text-muted-foreground">Friday: 4:00 PM - 8:00 PM</p>
+                    <p class="text-muted-foreground">Fridays: 9:00 AM - 2:00 PM & 4:00 PM - 8:00 PM</p>
                   </div>
                 </div>
               </div>
@@ -132,9 +131,7 @@ import { Clock, Mail, MapPin, MessageCircle, Phone } from 'lucide-vue-next'
               We Welcome Patients from Across Europe
             </h2>
             <p class="text-muted-foreground text-lg mb-8">
-              Dr. Bañuls regularly treats patients from the UK, Germany, Netherlands, Belgium, 
-              and other European countries. Our team can assist with travel arrangements and 
-              provide all consultations in English.
+              Dr. Bañuls regularly treats patients from the UK, Germany, Netherlands, Belgium, and other European countries. Consultations are available in English and Spanish, and we guarantee strict confidentiality for all medical records and patient information.
             </p>
             <div class="flex justify-center gap-4 text-4xl">
               <span>🇬🇧</span>

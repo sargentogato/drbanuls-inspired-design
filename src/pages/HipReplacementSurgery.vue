@@ -8,19 +8,17 @@ import TreatmentPage from '@/components/TreatmentPage.vue';
     subtitle="Personalized solutions to restore mobility and quality of life"
     icon="🏃"
     :description="[
-      'Hip replacement surgery can be life-changing for patients suffering from severe hip pain and limited mobility. Dr. Bañuls specializes in both total and partial hip replacement procedures, using the latest prosthetic technology and surgical techniques.',
-      'Each patient receives a personalized evaluation to determine the best approach for their specific condition, lifestyle, and goals. Dr. Bañuls takes the time to explain all options and set realistic expectations for recovery.',
-      'With proper surgical technique and rehabilitation, most patients experience significant pain relief and improved mobility, allowing them to return to activities they may have given up years ago.'
+      'For patients in Jávea and across the Costa Blanca, hip replacement surgery with Dr. Miguel Bañuls can be a life-changing solution for severe hip pain. With over 20 years of experience, Dr. Bañuls specializes in using high-quality prostheses and minimally invasive techniques to ensure a faster recovery.',
+      'An individualized surgical plan is created for every patient. Non-surgical options like physiotherapy and injections are always considered first, and surgery is only recommended when these treatments are no longer effective.',
+      'His goal is to restore mobility and quality of life, allowing patients to return to the activities they love with significantly reduced pain.'
     ]"
     :conditions="[
       'Hip Osteoarthritis',
       'Rheumatoid Arthritis',
       'Hip Fractures',
       'Avascular Necrosis',
-      'Hip Dysplasia',
-      'Post-Traumatic Arthritis',
-      'Failed Previous Surgery',
-      'Bone Tumors'
+      'Post-Traumatic Hip Damage',
+      'Failed Previous Hip Surgery'
     ]"
     :procedures="[
       {
@@ -41,12 +39,12 @@ import TreatmentPage from '@/components/TreatmentPage.vue';
       }
     ]"
     :benefits="[
-      'Extensive hip replacement experience',
-      'Latest prosthetic technology',
-      'Minimally invasive approaches when suitable',
-      'Comprehensive pre-operative planning',
-      'Dedicated rehabilitation support',
-      'Long-lasting results'
+      'Over 20 years of hip surgery experience',
+      'High-quality prosthesis for durability',
+      'Minimally invasive techniques for faster recovery',
+      'Individualized surgical plans',
+      'Non-surgical options considered first',
+      'Personalized multilingual care'
     ]"
     :relatedTreatments="[
       { title: 'Knee Surgery', href: '/treatments/knee-surgery' },

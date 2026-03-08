@@ -30,13 +30,31 @@ const values = [
 ]
 
 const timeline = [
-  { year: 'Education', text: 'Trained at Cambridge, Liverpool, and London' },
-  { year: 'Fellowship', text: 'Specialized fellowship in South Africa' },
-  { year: 'UK Certification', text: 'Obtained UK orthopaedic surgery certification' },
-  { year: 'Present', text: 'Private practice in Jávea, serving international patients' },
+  { title: 'Graduation', text: 'Graduated from the University of Valencia Medical School in 1989.' },
+  { title: 'UK Training', text: 'Trained in Orthopaedic and Trauma Surgery in Cambridgeshire, Nottinghamshire, and Bristol.' },
+  { title: 'Fellowship', text: 'Completed a fellowship in Spinal Surgery in Cape Town, South Africa in 2000.' },
+  { title: 'Masters Degrees', text: 'Earned an MSc (Orth) from UCL and an MCh (Orth) from the University of Liverpool, winning a medal for best thesis.' },
+  { title: 'Current Role', text: 'Consultant at Elche/Alicante University Hospital and runs a private practice in Jávea.' },
 ]
 
 const affiliations = ['BOA Member', 'SECOT Member', 'UK Certified']
+
+const clinicalInterests = [
+  'Complex spinal pain',
+  'Spinal stenosis',
+  'Osteoporotic spine fractures',
+  'Vertebroplasty and kyphoplasty',
+  'Back pain/failed back syndrome',
+  'Degenerative conditions of the lumbar and cervical spine',
+  'Cervical and lumbar disc herniation',
+  'Cervical and lumbar disc replacement',
+  'Facet joint pain',
+  'Discogenic/discal pain',
+  'Acute/chronic sciatica',
+  'Sacroiliac joint dysfunction',
+  'Therapeutic injection and fusion',
+  'Joint replacements (hips and knees)',
+]
 </script>
 
 <template>
@@ -81,19 +99,13 @@ const affiliations = ['BOA Member', 'SECOT Member', 'UK Certified']
                   A Surgeon You Can Trust
                 </h2>
                 <p class="text-muted-foreground text-lg leading-relaxed">
-                  Dr. Miguel Bañuls is a UK-trained orthopaedic surgeon who brings together 
-                  exceptional medical training, extensive experience, and a deeply personal 
-                  approach to patient care.
+                  Dr. Miguel Bañuls, born in 1960, is a Spanish doctor who graduated from the University of Valencia in 1989. He pursued his specialist training in Orthopaedic and Trauma Surgery in the United Kingdom, working in several renowned hospitals including Addenbrookes (Cambridge), Hinchinbrook (Huntington), Saint Richard’s (Chichester), Harlow Wood Orthopaedic Hospital (Nottingham), Queen’s Medical Centre (Nottingham), Avon Orthopaedic Centre (Bristol), and Gloucestershire Royal Hospital (Gloucester).
                 </p>
                 <p class="text-muted-foreground leading-relaxed">
-                  Having trained at some of the most prestigious institutions in the UK, 
-                  including Cambridge, Liverpool, and London, Dr. Bañuls combines world-class 
-                  surgical skills with a warm, honest approach that puts patients at ease.
+                  He completed his training with a fellowship in Spinal Surgery in South Africa at Groote Schuur University Hospital and the Conradie Hospital Spinal Cord Injury Unit in Cape Town. Dr. Bañuls furthered his expertise by earning two Master's degrees: an MSc (Orth) from University College London and an MCh (Orth) from the University of Liverpool, where he was awarded a medal for the best thesis.
                 </p>
                 <p class="text-muted-foreground leading-relaxed">
-                  His fellowship in South Africa further expanded his expertise, particularly 
-                  in complex cases and minimally invasive techniques. Today, he serves patients 
-                  from across Europe at his private practice in Jávea, Alicante.
+                  Currently, he works at the Elche/Alicante University Hospital as a consultant in the Spine Unit and is attached to the Orthopaedic Professorial Unit at the Miguel Hernandez University. He also offers private services for surgical and non-surgical management of back pain.
                 </p>
               </div>
 
@@ -159,11 +171,33 @@ const affiliations = ['BOA Member', 'SECOT Member', 'UK Certified']
               </div>
               <div class="pb-8">
                 <h3 class="font-display text-xl font-semibold text-foreground mb-1">
-                  {{ item.year }}
+                  {{ item.title }}
                 </h3>
                 <p class="text-muted-foreground">{{ item.text }}</p>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Clinical Interests Section -->
+      <section class="section-padding bg-background">
+        <div class="container-medical">
+          <div class="text-center max-w-3xl mx-auto mb-16">
+            <p class="text-primary font-medium tracking-wide uppercase text-sm mb-4">
+              Specializations
+            </p>
+            <h2 class="font-display text-3xl md:text-4xl font-semibold text-foreground">
+              Clinical Interests
+            </h2>
+          </div>
+          <div class="max-w-4xl mx-auto">
+            <ul class="grid sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-4">
+              <li v-for="interest in clinicalInterests" :key="interest" class="flex items-start gap-3">
+                <CheckCircle class="w-5 h-5 text-accent flex-shrink-0 mt-1" />
+                <span class="text-muted-foreground">{{ interest }}</span>
+              </li>
+            </ul>
           </div>
         </div>
       </section>

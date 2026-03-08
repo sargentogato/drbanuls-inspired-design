@@ -3,23 +3,23 @@ import { ArrowRight } from 'lucide-vue-next';
 
 const services = [
   {
-    title: 'Cirugía de Columna',
-    description: 'Técnicas mínimamente invasivas para hernias discales, fracturas vertebrales y dolor crónico de espalda — especialmente en pacientes mayores.',
+    title: 'Spine Surgery',
+    description: 'Minimally invasive techniques for herniated discs, vertebral fractures, and chronic back pain — especially in older patients.',
     icon: '🦴',
   },
   {
-    title: 'Cirugía de Rodilla',
-    description: 'Desde procedimientos artroscópicos hasta reemplazo total de articulación – técnicas modernas para estabilidad duradera y recuperación más rápida.',
+    title: 'Knee Surgery',
+    description: 'From arthroscopic procedures to total joint replacement – modern techniques for lasting stability and faster recovery.',
     icon: '🦵',
   },
   {
-    title: 'Reemplazo de Cadera',
-    description: 'Soluciones protésicas personalizadas para aliviar el dolor, mejorar la movilidad y restaurar la calidad de vida en pacientes con degeneración o lesión de cadera.',
+    title: 'Hip Replacement',
+    description: 'Customized prosthetic solutions to relieve pain, improve mobility, and restore quality of life in patients with hip degeneration or injury.',
     icon: '🏃',
   },
   {
-    title: 'Cirugía de Mano y Pie',
-    description: 'Tratamiento efectivo para deformidades, lesiones de tendones y compresión nerviosa, con enfoque en precisión y velocidad de recuperación.',
+    title: 'Hand and Foot Surgery',
+    description: 'Effective treatment for deformities, tendon injuries, and nerve compression, with a focus on precision and speed of recovery.',
     icon: '🤲',
   },
 ]
@@ -31,13 +31,13 @@ const services = [
       <!-- Header -->
       <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
         <p class="text-primary font-medium tracking-wide uppercase text-sm">
-          Tratamientos
+          Treatments
         </p>
         <h2 class="font-display text-3xl md:text-4xl lg:text-5xl font-semibold text-foreground">
-          Especialidades Ortopédicas
+          Orthopaedic Specialties
         </h2>
         <p class="text-muted-foreground text-lg">
-          Ofrecemos tratamientos especializados con técnicas de vanguardia y atención personalizada
+          We offer specialized treatments with cutting-edge techniques and personalized care.
         </p>
       </div>
 
@@ -58,7 +58,7 @@ const services = [
                 {{ service.description }}
               </p>
               <button class="flex items-center gap-2 text-primary font-medium text-sm mt-4 group/btn">
-                Más información
+                Learn more
                 <ArrowRight class="w-4 h-4 transition-transform group-hover/btn:translate-x-1" />
               </button>
             </div>
@@ -69,7 +69,7 @@ const services = [
       <!-- Bottom CTA -->
       <div class="mt-16 text-center">
         <p class="text-muted-foreground mb-4">
-          ¿No está seguro de qué tratamiento necesita?
+          Not sure which treatment you need?
         </p>
         <a 
           href="https://wa.me/34606914833" 
@@ -77,7 +77,7 @@ const services = [
           rel="noopener noreferrer"
           class="inline-flex items-center gap-2 btn-primary"
         >
-          Consulte con el Dr. Bañuls
+          Consult with Dr. Bañuls
           <ArrowRight class="w-4 h-4" />
         </a>
       </div>

@@ -4,30 +4,30 @@ import { Quote, Star } from 'lucide-vue-next';
 const testimonials = [
   {
     name: 'John M.',
-    country: 'Reino Unido',
+    country: 'United Kingdom',
     flag: '🇬🇧',
-    text: 'Después de años de dolor de cadera, finalmente encontré al cirujano adecuado. La operación fue perfecta y mi recuperación fue mucho más rápida de lo esperado. Verdaderamente agradecido.',
+    text: 'After years of hip pain, I finally found the right surgeon. The operation was perfect, and my recovery was much faster than expected. Truly grateful.',
     rating: 5,
   },
   {
     name: 'Susan R.',
-    country: 'Países Bajos',
+    country: 'Netherlands',
     flag: '🇳🇱',
-    text: 'Estaba extremadamente preocupada por mi cirugía de columna, pero el Dr. Bañuls explicó todo claramente y estableció expectativas realistas. Un año después, estoy sin dolor y camino a diario.',
+    text: 'I was extremely worried about my spine surgery, but Dr. Bañuls explained everything clearly and set realistic expectations. A year later, I am pain-free and walk daily.',
     rating: 5,
   },
   {
     name: 'Peter H.',
-    country: 'Alemania',
+    country: 'Germany',
     flag: '🇩🇪',
-    text: 'Lo que más me impresionó fue la atención personal y la honestidad. El Dr. Bañuls se centró en mi situación y me guió a través de cada paso con confianza.',
+    text: 'What impressed me most was the personal attention and honesty. Dr. Bañuls focused on my situation and guided me through each step with confidence.',
     rating: 5,
   },
   {
     name: 'Linda S.',
-    country: 'Reino Unido',
+    country: 'United Kingdom',
     flag: '🇬🇧',
-    text: 'Profesional, humano y muy claro. Todo fue completamente explicado antes de mi reemplazo de rodilla. Lo recomendaría a cualquiera que necesite cirugía ortopédica en el extranjero.',
+    text: 'Professional, humane, and very clear. Everything was thoroughly explained before my knee replacement. I would recommend him to anyone needing orthopedic surgery abroad.',
     rating: 5,
   },
 ]
@@ -39,13 +39,13 @@ const testimonials = [
       <!-- Header -->
       <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
         <p class="text-primary font-medium tracking-wide uppercase text-sm">
-          Testimonios
+          Testimonials
         </p>
         <h2 class="font-display text-3xl md:text-4xl lg:text-5xl font-semibold text-foreground">
-          Opiniones de Pacientes Internacionales
+          Reviews from International Patients
         </h2>
         <p class="text-muted-foreground text-lg">
-          Pacientes de toda Europa confían en el Dr. Bañuls para su atención ortopédica
+          Patients from all over Europe trust Dr. Bañuls for their orthopedic care.
         </p>
       </div>
 

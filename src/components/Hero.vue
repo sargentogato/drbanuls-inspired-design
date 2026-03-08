@@ -4,9 +4,9 @@ import Button from '@/components/ui/Button.vue';
 import { Award, GraduationCap, Stethoscope } from 'lucide-vue-next';
 
 const credentials = [
-  { icon: GraduationCap, text: 'Formación en UK' },
-  { icon: Stethoscope, text: '+20 años experiencia' },
-  { icon: Award, text: 'Especialista en Columna, Cadera y Rodilla' },
+  { icon: GraduationCap, text: 'UK Trained' },
+  { icon: Stethoscope, text: '+20 Years Experience' },
+  { icon: Award, text: 'Specialist in Spine, Hip & Knee' },
 ]
 </script>
 
@@ -25,19 +25,19 @@ const credentials = [
         <div class="space-y-8 animate-fade-up">
           <div class="space-y-4">
             <p class="text-primary font-medium tracking-wide uppercase text-sm">
-              Cirujano Ortopédico en Jávea
+              Orthopaedic Surgeon in Jávea
             </p>
             <h1 class="font-display text-4xl md:text-5xl lg:text-6xl font-semibold text-foreground leading-tight">
               Dr. Miguel Bañuls
             </h1>
             <p class="text-xl md:text-2xl text-muted-foreground font-light">
-              Atención personalizada · Técnicas mínimamente invasivas · Resultados excepcionales
+              Personalized Care · Minimally Invasive Techniques · Exceptional Results
             </p>
           </div>
 
           <p class="text-muted-foreground text-lg leading-relaxed max-w-xl">
-            Formado en Cambridge, Liverpool, Londres y Sudáfrica. Cirujano ortopédico certificado en UK 
-            con más de 20 años de experiencia en tratamientos de columna, cadera y rodilla.
+            Trained in Cambridge, Liverpool, London, and South Africa. A UK-certified 
+            orthopaedic surgeon with over 20 years of experience in spine, hip, and knee treatments.
           </p>
 
           <!-- Credentials -->
@@ -64,7 +64,7 @@ const credentials = [
             </a>
             <a href="tel:+34606914833">
               <Button variant="outline" class="border-primary text-primary hover:bg-primary hover:text-primary-foreground text-base px-6 py-3">
-                Llamar Ahora
+                Call Now
               </Button>
             </a>
           </div>
@@ -78,7 +78,7 @@ const credentials = [
             <div class="relative h-full rounded-2xl overflow-hidden shadow-elevated border-4 border-card">
               <img
                 :src="doctorImage"
-                alt="Dr. Miguel Bañuls - Cirujano Ortopédico"
+                alt="Dr. Miguel Bañuls - Orthopaedic Surgeon"
                 class="w-full h-full object-cover"
               />
             </div>
@@ -90,7 +90,7 @@ const credentials = [
                   <Award class="w-6 h-6 text-primary" />
                 </div>
                 <div>
-                  <p class="text-sm font-semibold text-foreground">Certificado UK</p>
+                  <p class="text-sm font-semibold text-foreground">UK Certified</p>
                   <p class="text-xs text-muted-foreground">BOA & SECOT Member</p>
                 </div>
               </div>

@@ -8,45 +8,45 @@ import TreatmentPage from '@/components/TreatmentPage.vue';
     subtitle="Conservative options for pain relief and improved function"
     icon="💉"
     :description="[
-      'Not every orthopaedic problem requires surgery. Dr. Bañuls offers a comprehensive range of non-surgical treatment options that can provide significant relief for many patients. His honest approach means he\'ll always recommend conservative treatment when it\'s likely to be effective.',
-      'From targeted injections to structured rehabilitation programs, these treatments can address pain and improve function without the need for an operation. For some patients, non-surgical treatment may delay or even eliminate the need for surgery.',
-      'Dr. Bañuls works closely with physiotherapists and other specialists to ensure you receive comprehensive care tailored to your specific needs and goals.'
+      'Dr. Bañuls provides a comprehensive range of non-surgical treatments at Euroclínica Jávea, serving international patients across the Costa Blanca. His honest approach means he will always explore conservative options to relieve pain and improve mobility, potentially avoiding or delaying the need for surgery.',
+      'From targeted injections to structured rehabilitation programs, these treatments can address pain and improve function without an operation. For some patients, non-surgical treatment is the most effective and appropriate path forward.',
+      'Dr. Bañuls works closely with physiotherapists and other specialists to ensure you receive comprehensive care tailored to your specific needs, lifestyle, and goals.'
     ]"
     :conditions="[
-      'Early Arthritis',
-      'Tendinitis',
-      'Bursitis',
-      'Mild Joint Pain',
+      'Early-Stage Arthritis',
+      'Chronic Back/Neck Pain',
+      'Nerve Irritation (Sciatica)',
+      'Soft Tissue Inflammation',
+      'Tendinitis & Bursitis',
       'Sports Injuries',
-      'Muscle Strains',
-      'Chronic Pain',
+      'Mild to Moderate Joint Pain',
       'Post-Surgical Rehabilitation'
     ]"
     :procedures="[
       {
-        title: 'Corticosteroid Injections',
-        description: 'Targeted injections of anti-inflammatory medication directly into affected joints or soft tissues for rapid pain relief and reduced inflammation.'
+        title: 'Advanced Injection Therapies',
+        description: 'A wide range of targeted injections including Epidural Steroid, Facet Joint, Nerve Root Blocks, Sacroiliac Joint, and Corticosteroid injections to reduce inflammation and block pain signals.'
       },
       {
-        title: 'PRP (Platelet-Rich Plasma) Therapy',
-        description: 'Using your own blood\'s healing factors to promote tissue repair and reduce pain in tendons, ligaments, and joints.'
+        title: 'Regenerative Medicine',
+        description: 'Using your body\'s own healing potential with treatments like PRP (Platelet-Rich Plasma) Therapy to repair tissue and reduce pain.'
       },
       {
-        title: 'Hyaluronic Acid Injections',
-        description: 'Viscosupplementation to improve joint lubrication and cushioning, particularly effective for knee arthritis.'
+        title: 'Viscosupplementation',
+        description: 'Hyaluronic Acid injections to improve joint lubrication, reduce stiffness, and ease pain, particularly for knee arthritis.'
       },
       {
-        title: 'Physical Therapy Programs',
-        description: 'Structured rehabilitation programs designed to strengthen muscles, improve flexibility, and restore function without surgery.'
+        title: 'Conservative Care Programs',
+        description: 'Holistic programs that include Physical Therapy, postural correction, weight management, and activity modifications to address underlying issues.'
       }
     ]"
     :benefits="[
-      'Avoid surgery when possible',
-      'Minimal downtime',
-      'Lower risk than surgical options',
-      'Can be repeated if needed',
-      'Quick pain relief',
-      'Honest assessment of likely outcomes'
+      'Avoid or delay surgery',
+      'Minimal downtime & quick recovery',
+      'Lower risk than surgical procedures',
+      'Personalized, multilingual care',
+      'Holistic approach to pain management',
+      'Honest assessment of all treatment options'
     ]"
     :relatedTreatments="[
       { title: 'Knee Surgery', href: '/treatments/knee-surgery' },

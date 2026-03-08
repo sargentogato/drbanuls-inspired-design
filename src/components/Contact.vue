@@ -11,14 +11,14 @@ import { Clock, MapPin, MessageCircle, Phone } from 'lucide-vue-next';
         <div class="space-y-8">
           <div class="space-y-4">
             <p class="text-primary font-medium tracking-wide uppercase text-sm">
-              Contacto
+              Contact
             </p>
             <h2 class="font-display text-3xl md:text-4xl lg:text-5xl font-semibold text-foreground">
-              Reserve su Consulta
+              Book Your Consultation
             </h2>
             <p class="text-muted-foreground text-lg">
-              Citas privadas cada viernes en Euroclínica Jávea. 
-              Contacte con nosotros para programar su visita.
+              Private appointments are available every Friday at Euroclínica Jávea. 
+              Contact us to schedule your visit.
             </p>
           </div>
 
@@ -29,7 +29,7 @@ import { Clock, MapPin, MessageCircle, Phone } from 'lucide-vue-next';
                 <MapPin class="w-6 h-6 text-primary" />
               </div>
               <div>
-                <p class="font-semibold text-foreground">Ubicación</p>
+                <p class="font-semibold text-foreground">Location</p>
                 <p class="text-muted-foreground">Av. Estrasburgo, Local 2, 03730 Xàbia, Alicante</p>
               </div>
             </div>
@@ -39,7 +39,7 @@ import { Clock, MapPin, MessageCircle, Phone } from 'lucide-vue-next';
                 <Phone class="w-6 h-6 text-primary" />
               </div>
               <div>
-                <p class="font-semibold text-foreground">Teléfono</p>
+                <p class="font-semibold text-foreground">Phone</p>
                 <a href="tel:+34606914833" class="text-muted-foreground hover:text-primary transition-colors">
                   +34 606 914 833
                 </a>
@@ -51,8 +51,8 @@ import { Clock, MapPin, MessageCircle, Phone } from 'lucide-vue-next';
                 <Clock class="w-6 h-6 text-primary" />
               </div>
               <div>
-                <p class="font-semibold text-foreground">Horario de Consulta</p>
-                <p class="text-muted-foreground">Viernes: 9:00 - 14:00 | 16:00 - 20:00</p>
+                <p class="font-semibold text-foreground">Consultation Hours</p>
+                <p class="text-muted-foreground">Friday: 9:00 AM - 2:00 PM | 4:00 PM - 8:00 PM</p>
               </div>
             </div>
           </div>
@@ -68,7 +68,7 @@ import { Clock, MapPin, MessageCircle, Phone } from 'lucide-vue-next';
             <a href="tel:+34606914833">
               <Button variant="outline" class="border-primary text-primary hover:bg-primary hover:text-primary-foreground text-base px-6 py-3">
                 <Phone class="w-5 h-5 mr-2" />
-                Llamar
+                Call
               </Button>
             </a>
           </div>
@@ -85,7 +85,7 @@ import { Clock, MapPin, MessageCircle, Phone } from 'lucide-vue-next';
               allowfullscreen
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
-              title="Ubicación Euroclínica Jávea"
+              title="Euroclínica Jávea Location"
             />
           </div>
         </div>
