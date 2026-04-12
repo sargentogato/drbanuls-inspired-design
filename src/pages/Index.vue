@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import About from '@/components/About.vue'
 import Contact from '@/components/Contact.vue'
+import FeaturedTreatment from '@/components/FeaturedTreatment.vue'
 import Footer from '@/components/Footer.vue'
 import Header from '@/components/Header.vue'
 import Hero from '@/components/Hero.vue'
@@ -13,6 +14,7 @@ import Testimonials from '@/components/Testimonials.vue'
     <Header />
     <main>
       <Hero />
+      <FeaturedTreatment />
       <About />
       <Services />
       <Testimonials />

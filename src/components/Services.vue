@@ -21,9 +21,9 @@ const services = [
     href: '/treatments/hip-replacement'
   },
   {
-    title: 'Hand and Foot Surgery',
-    description: 'Effective treatment for deformities, tendon injuries, and nerve compression, with a focus on precision and speed of recovery.',
-    icon: '🤲',
+    title: 'Percutaneous Foot Surgery',
+    description: 'Minimally invasive correction of bunions and deformities directly through <3mm incisions. Fast recovery and walk-out procedures.',
+    icon: '🦶',
     href: '/treatments/hand-foot'
   },
 ]

@@ -5,47 +5,47 @@ import TreatmentPage from '@/components/TreatmentPage.vue';
 <template>
   <TreatmentPage
     title="Hand & Foot Surgery"
-    subtitle="Aesthetic and functional solutions for bunions, hammertoes, and foot pain"
-    icon="🤲"
+    subtitle="Advanced percutaneous and minimally invasive solutions for bunions and foot pain"
+    icon="🦶"
     :description="[
-      'Hand and foot problems can significantly impact quality of life. At Euroclínica Jávea, Dr. Miguel Bañuls offers expert surgical treatment for a wide range of hand and foot conditions for patients in Jávea and the Costa Blanca.',
-      'He emphasizes a conservative approach, exploring non-surgical options like physical therapy and injections first. When surgery is necessary, he utilizes minimally invasive techniques to ensure faster recovery times.',
-      'From carpal tunnel syndrome to painful bunions and hammertoes, Dr. Bañuls provides precise surgical solutions that not only restore function but also deliver excellent aesthetic results.'
+      'Dr. Miguel Bañuls specializes in advanced foot surgery and podiatry, offering state-of-the-art treatments for patients in Jávea and the Costa Blanca.',
+      'He is highly experienced in percutaneous (minimally invasive) foot surgery. Through tiny incisions of less than 3mm, specially designed surgical instruments are introduced to elegantly correct bone deformities, minimizing damage to surrounding tissues.',
+      'These procedures are performed under local anesthesia, completely avoiding the risks and complications associated with general anesthesia. The surgery is strictly outpatient: patients can walk out of the clinic unassisted on the same day, wearing a special post-operative shoe.'
     ]"
     :conditions="[
       'Bunions (Hallux Valgus)',
-      'Hammer Toes',
+      'Hammertoes and Claw Toes',
+      'Heel Spurs',
+      'Plantar Fasciitis',
       'Carpal Tunnel Syndrome',
       'Trigger Finger',
-      'Plantar Fasciitis',
-      'Tendon Injuries',
       'Hand & Foot Fractures'
     ]"
     :procedures="[
       {
-        title: 'Bunion & Hammertoe Correction',
-        description: 'Surgical correction of bunions (Hallux Valgus) and hammertoes with a strong focus on achieving excellent, natural-looking aesthetic results while restoring foot mechanics.'
+        title: 'Percutaneous Bunion Surgery (Hallux Valgus)',
+        description: 'Minimally invasive correction of bunions. Unlike traditional surgery, this technique often requires no screws, pins, or internal implants. The deformity is corrected precisely using specialized instruments.'
       },
       {
-        title: 'Carpal Tunnel Release',
-        description: 'Surgical release of the carpal ligament to relieve pressure on the median nerve, restoring sensation and strength to the hand.'
+        title: 'Hammertoe Correction',
+        description: 'Precise correction through minimal incisions to relieve pressure, straighten the toe, and restore its natural alignment with excellent aesthetic results.'
       },
       {
-        title: 'Trigger Finger Release',
-        description: 'A minor procedure to release the tendon sheath that is causing the finger to lock or catch during movement.'
+        title: 'Heel Spur & Plantar Fasciitis Treatment',
+        description: 'Advanced minimally invasive approaches to resolve heel pain and treat the inflamed plantar fascia, allowing for a quick return to walking.'
       },
       {
-        title: 'Tendon Repair',
-        description: 'Surgical repair of torn or damaged tendons in the hand or foot to restore function and strength.'
+        title: 'Rapid Post-Op Recovery',
+        description: 'Recovery from percutaneous surgery is exceptionally fast. Patients walk the same day. Full recovery takes about 7 to 14 days for procedures without a fracture, and roughly 40 days when an osteotomy is required.'
       }
     ]"
     :benefits="[
-      'Excellent aesthetic outcomes',
-      'Expertise in delicate hand & foot surgery',
-      'Minimally invasive approach for faster recovery',
-      'Non-surgical options are always considered first',
-      'Focus on restoring optimal function',
-      'Personalized multilingual care'
+      'Minimal invasiveness (incisions under 3mm) preventing tissue damage',
+      'Rapid recovery allowing an early return to daily activities',
+      'Significantly less post-operative pain',
+      'Superior aesthetic results with virtually no scarring',
+      'Reduced rate of surgical complications',
+      'Outpatient procedure: walk out the same day'
     ]"
     :relatedTreatments="[
       { title: 'Non-Surgical Treatments', href: '/treatments/non-surgical' },
